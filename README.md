@@ -46,11 +46,7 @@ This project was developed as a **Backend Intern Test Case – CAN Creative**.
 * MySQL / MariaDB
 * Laravel Breeze (Authentication)
 
-## Database ERD
 
-The database ERD is provided in **PDF format** and attached in the test case submission email.
-
-> File: `ERD_PO_CAN_Travel_L_Nasrullah_Hidayat_Sani.pdf`
 
 ## Installation & Running the Application
 
@@ -96,11 +92,16 @@ DB_PASSWORD=
 php artisan key:generate
 ```
 
-### 6. Run Migrations
+### 6. Run Migrations & Seeder
 
 ```bash
 php artisan migrate
 ```
+```bash
+php artisan db:seed
+````
+
+
 
 ### 7. Create Storage Symlink
 
@@ -111,11 +112,9 @@ php artisan storage:link
 ```
 
 
-```bash
-php artisan db:seed
-````
 
-### 7. Install Frontend Dependencies
+
+### 8. Install Frontend Dependencies
 
 This project uses **Tailwind CSS**, so Node.js and NPM are required.
 
@@ -123,13 +122,13 @@ This project uses **Tailwind CSS**, so Node.js and NPM are required.
 npm install
 ```
 
-### 8. Run Frontend Assets
+### 9. Run Frontend Assets
 
 ```bash
 npm run dev
 ```
 
-### 9. Run Development Server
+### 10. Run Development Server
 
 ```bash
 php artisan serve
