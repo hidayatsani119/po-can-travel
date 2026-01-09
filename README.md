@@ -11,7 +11,7 @@
 
 ## Description
 
-**PO CAN Travel** is a backend application for a bus ticket booking system built using **Laravel 10**. This application provides authentication features (register & login), ticket searching, booking, payment confirmation flow, and ticket management using **Eloquent ORM** with proper request validation.
+**PO CAN Travel** is a application for a bus ticket booking system built using **Laravel 10**. This application provides authentication features (register & login), ticket searching, booking, payment confirmation flow, and ticket management using **Eloquent ORM** with proper request validation.
 
 This project was developed as a **Backend Intern Test Case – CAN Creative**.
 
